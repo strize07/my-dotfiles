@@ -1,4 +1,4 @@
-git clone https://github.com/LazyVim/starter ~/.config/nvim
-rm -rf ~/.config/nvim/.git
+- git clone https://github.com/LazyVim/starter ~/.config/nvim
+- rm -rf ~/.config/nvim/.git
 
 stow --adopt .

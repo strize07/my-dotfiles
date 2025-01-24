@@ -1,0 +1,48 @@
+ls
+cd my-dotfiles/
+cd
+fzf
+$nu.config-path
+cd
+nv /home/strize/.config/nushell/config.nu
+nvim 
+nvim /home/strize/.config/nushell/config.nu
+tree
+nv 
+nv
+inv
+nvim /home/strize/.config/nushell/config.nu
+tree
+nv
+yazi
+nvim /home/strize/.config/nushell/config.nu
+tree
+nv
+z
+y
+yazi
+atuin init nu | save ~/.local/share/atuin/init.nu
+nvim /home/strize/.config/nushell/config.nu
+nvim /home/strize/.config/nushell/env.nu
+ls
+y
+nv
+nvim /home/strize/.config/nushell/config.nu
+fastfetch
+nvim /home/strize/.config/nushell/config.nu
+nvim .bashrc
+z
+cd my-dotfiles/
+cd
+cd my
+cd
+cd m
+cd
+nvim /home/strize/.config/nushell/config.nu
+nu
+fzf
+mkdir -p ~/.config/yazi
+mkdir ~/.config/yazi
+touch ~/.config/yazi/yazi.toml
+nvim ~/.config/yazi/yazi.toml
+sudo pacman -S bat viu ffmpeg poppler tree ffmpegthumbnailer

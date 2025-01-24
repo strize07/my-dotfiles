@@ -6,6 +6,21 @@ end
 alias tree='tree --charset utf-8'
 alias inv='nvim $(fzf -m --preview="bat --color=always {}")'
 alias fzf='fzf -m --preview="bat --color=always {}"'
+alias y='yazi'
+alias nv='nvim'
+alias gc='git clone'
+
+#to make ls in nu shell
+function ls
+    set -l cmd ls # Start building the Nu command with 'ls'
+    for arg in $argv
+        # Escape double quotes in the argument and wrap each in quotes
+        set -l escaped_arg (string replace -a '"' '\\"' -- $arg)
+        set cmd $cmd \"$escaped_arg\"
+    end
+    # Execute the constructed command in Nu
+    nu -c "$cmd"
+end
 
 #Command to show most used Commands
 function topcmds

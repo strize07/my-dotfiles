@@ -1,48 +1,34 @@
+sudo pacman -S stow
+rustup default stable
+nvim --version && atuin --version && zoxide --version && bat --version && starship --version && tmux -V && fastfetch --version && yazi --version && fzf --version && nu --version && fish --version && rustc --version
+nvim --version and atuin --version and zoxide --version and bat --version and starship --version and tmux -V and fastfetch --version and yazi --version and fzf --version and nu --version and fish --version and rustc --version
+git clone https://github.com/strize07/my-dotfiles.git
 ls
-cd my-dotfiles/
-cd
-fzf
-$nu.config-path
-cd
-nv /home/strize/.config/nushell/config.nu
-nvim 
-nvim /home/strize/.config/nushell/config.nu
-tree
-nv 
-nv
-inv
-nvim /home/strize/.config/nushell/config.nu
-tree
-nv
-yazi
-nvim /home/strize/.config/nushell/config.nu
-tree
-nv
-z
-y
-yazi
-atuin init nu | save ~/.local/share/atuin/init.nu
-nvim /home/strize/.config/nushell/config.nu
-nvim /home/strize/.config/nushell/env.nu
-ls
-y
-nv
-nvim /home/strize/.config/nushell/config.nu
-fastfetch
-nvim /home/strize/.config/nushell/config.nu
-nvim .bashrc
-z
-cd my-dotfiles/
-cd
 cd my
-cd
-cd m
-cd
-nvim /home/strize/.config/nushell/config.nu
-nu
-fzf
-mkdir -p ~/.config/yazi
-mkdir ~/.config/yazi
-touch ~/.config/yazi/yazi.toml
-nvim ~/.config/yazi/yazi.toml
-sudo pacman -S bat viu ffmpeg poppler tree ffmpegthumbnailer
+cd my-dotfiles/
+stow --adopt .
+y
+yazi
+y
+yazi
+nvim .bashrc
+y
+yazi
+ls
+fastfetch
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+nv config fish
+cd config fish
+cd config
+cd .con
+cd .config
+ls
+cd nushell/
+nv config.nu
+cd nushell/
+cd nushell
+ls
+nv config.nu
+nv .bashrc
+y
+nv .bashrc

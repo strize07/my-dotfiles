@@ -17,7 +17,6 @@
 # You can remove these comments if you want or leave
 # them for future reference.
 
-alias tree = tree --charset utf-8
 alias inv = nvim (fzf -m --preview="bat --color=always {}")
 alias fzf = fzf -m --preview="bat --color=always {}"
 alias y = yazi
@@ -37,3 +36,6 @@ source ~/.local/share/atuin/init.nu
 mkdir ($nu.data-dir | path join "vendor/autoload")
 starship init nu | save -f ($nu.data-dir | path join "vendor/autoload/starship.nu")
 
+tmux
+sleep 1sec
+fastfetch

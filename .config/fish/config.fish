@@ -41,13 +41,14 @@ function fish_user_key_bindings
     bind \ci ''
 end
 
-
 export EDITOR=nvim
 export VISUAL=nvim
 
 starship init fish | source
 atuin init --disable-up-arrow fish | source
 zoxide init --cmd cd fish | source
-
+set -gx PATH ~/.npm-global/bin $PATH
+# Start tmux
 tmux
-fastfetch
+# Delay fastfetch by 2 seconds
+sleep 1 && fastfetch

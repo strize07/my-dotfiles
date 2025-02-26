@@ -32,3 +32,4 @@ nv config.nu
 nv .bashrc
 y
 nv .bashrc
+lazydocker.exe

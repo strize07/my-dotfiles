@@ -19,3 +19,4 @@
 
 #zoxide env
 zoxide init --cmd cd nushell | save -f ~/.zoxide.nu
+source "$HOME/.cargo/env.nu"

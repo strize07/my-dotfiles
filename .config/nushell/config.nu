@@ -39,3 +39,4 @@ starship init nu | save -f ($nu.data-dir | path join "vendor/autoload/starship.n
 tmux
 sleep 1sec
 fastfetch
+source "$HOME/.cargo/env.nu"
